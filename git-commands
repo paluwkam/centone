@@ -1,0 +1,5 @@
+cd lesson17
+dir
+git init
+git add .
+git commit -m "first commit"
