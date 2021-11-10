@@ -1,5 +1,14 @@
+# Привязка папки к репозиторы 
 cd lesson17
 dir
 git init
 git add .
 git commit -m "first commit"
+git remote add origin https://github.com/paluwkam/centone.git
+git branch -M main
+git push -u origin main
+
+# Добавление изменений в репу
+git add .
+git commit - m "add file"
+git push
